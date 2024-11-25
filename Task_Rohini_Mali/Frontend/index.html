@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="login" class="page">
+            <h1>login</h1>
+            <from>
+
+                <input type="text" id="username" />
+                <input type="text" id="password" />
+                <button type="submit">login</button>
+
+            </from>
+
+            <div id="dashboard">
+                <h1>dashboard</h1>
+                <button id="profile">profile</button>
+                <button id="todo">TODO List</button>
+                <button id="users">UserList</button>
+                <button id="logout">logout</button>
+            </div>
+
+            <div id="profile">
+                <h1>profile</h1>
+                <form action="" id="profile">
+                    <input type="email" id="profile-name" placeholder="name">
+                    <input type="password" id="profile-email" placeholder="password" required>
+                    <button id="dashboard">Back</button>
+
+                </form>
+
+            </div>
+
+
+            <div id="todo-page">
+                <h1>TODO List</h1>
+               <ul id="dashboard-todo"></ul>
+               <button id="back-dashboard-todo"></button>
+            </div>
+
+
+            <div id="user-list-page">
+                <h1>user list</h1>
+               <ul id="user-list"></ul>
+               <button id="back-dashboard-user">back</button>
+            </div>
+        </div>
+        <script src="js/api.js"></script>
+        <script src="js/app.js"></script>
+    </div>
+</body>
+
+</html>
